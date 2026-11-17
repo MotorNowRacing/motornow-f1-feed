@@ -1,0 +1,3326 @@
+{
+  "series": "F1",
+  "season": 2026,
+  "status": "PREVIEW_NOT_OFFICIAL",
+  "publishable": false,
+  "source_coverage": "F1 preview: 20 manually reviewed races + strictly screened subsequent sessions",
+  "race_count": 20,
+  "latest_race_session_id": "2026_11_5_23_6_RACE",
+  "excluded": [
+    {
+      "session_id": "2026_4_9_22_8_RACE",
+      "reason": "Bahrain exact duplicate: retain 22:09"
+    },
+    {
+      "session_id": "2026_10_29_21_34_RACE",
+      "reason": "Mexico interrupted: retain 23:03"
+    },
+    {
+      "session_id": "2026_6_2_14_53_RACE",
+      "reason": "Barcelona test session: not an official race"
+    }
+  ],
+  "races": [
+    {
+      "session_id": "2026_11_5_23_6_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Interlagos - F1 Grand Prix, Brazil",
+      "completed_at": "2026-11-05T23:06:00+01:00",
+      "track": "MN_INTERLAGOS_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_11_5_23_6_RACE.json",
+      "participants": 10,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Iker",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 46,
+          "best_lap_ms": 69333,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 3,
+          "laps": 46,
+          "best_lap_ms": 69639,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 2,
+          "laps": 46,
+          "best_lap_ms": 69292,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 46,
+          "best_lap_ms": 70060,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 46,
+          "best_lap_ms": 69863,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 4,
+          "laps": 46,
+          "best_lap_ms": 70691,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 45,
+          "best_lap_ms": 70804,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 45,
+          "best_lap_ms": 71133,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "fali carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 9,
+          "laps": 44,
+          "best_lap_ms": 69372,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 10,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 5,
+          "laps": 22,
+          "best_lap_ms": 70017,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_10_29_23_3_RACE",
+      "championship_id": "532557d3-df77-4089-a655-bb5959813772",
+      "event": "MN-MEXICO F1 Grand Prix, Mexico",
+      "completed_at": "2026-10-29T23:03:00+01:00",
+      "track": "MN_MEXICO_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_10_29_23_3_RACE.json",
+      "participants": 10,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        },
+        {
+          "position": 3,
+          "driver": "Iker",
+          "team": "RedBull Racing Team"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 42,
+          "best_lap_ms": 73506,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 2,
+          "laps": 42,
+          "best_lap_ms": 74931,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 5,
+          "laps": 42,
+          "best_lap_ms": 76407,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 41,
+          "best_lap_ms": 75901,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 4,
+          "laps": 41,
+          "best_lap_ms": 76908,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 41,
+          "best_lap_ms": 75921,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 41,
+          "best_lap_ms": 75820,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 3,
+          "laps": 41,
+          "best_lap_ms": 75184,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 40,
+          "best_lap_ms": 77959,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "fali carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 8,
+          "laps": 17,
+          "best_lap_ms": 76322,
+          "penalty_ms": 0,
+          "disqualified": false
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_10_22_23_9_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-AUSTIN F1 Grand Prix, USA",
+      "completed_at": "2026-10-22T23:09:00+02:00",
+      "track": "MN_AUSTIN_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_10_22_23_9_RACE.json",
+      "participants": 8,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        },
+        {
+          "position": 3,
+          "driver": "Roberto Peña",
+          "team": "Los Navarros"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 8,
+          "laps": 34,
+          "best_lap_ms": 93098,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 1,
+          "laps": 34,
+          "best_lap_ms": 95748,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 4,
+          "laps": 34,
+          "best_lap_ms": 96721,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 5,
+          "laps": 34,
+          "best_lap_ms": 97274,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 2,
+          "laps": 34,
+          "best_lap_ms": 96496,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 3,
+          "laps": 34,
+          "best_lap_ms": 98482,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 33,
+          "best_lap_ms": 99203,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 34,
+          "best_lap_ms": 97838,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_10_8_23_0_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Singapore F1 GP, Singapore",
+      "completed_at": "2026-10-08T23:00:00+02:00",
+      "track": "MN-SINGAPORE_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_10_8_23_0_RACE.json",
+      "participants": 6,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        },
+        {
+          "position": 3,
+          "driver": "Roberto Peña",
+          "team": "Los Navarros"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 32,
+          "best_lap_ms": 90889,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 2,
+          "laps": 32,
+          "best_lap_ms": 92538,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 3,
+          "laps": 32,
+          "best_lap_ms": 92106,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 4,
+          "laps": 31,
+          "best_lap_ms": 94561,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 5,
+          "laps": 31,
+          "best_lap_ms": 92370,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 6,
+          "laps": 30,
+          "best_lap_ms": 93936,
+          "penalty_ms": 0,
+          "disqualified": false
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_9_24_23_8_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "Baku GP 2022, Azerbaijan",
+      "completed_at": "2026-09-24T23:08:00+02:00",
+      "track": "MN-BAKU_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_9_24_23_8_RACE.json",
+      "participants": 10,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        },
+        {
+          "position": 3,
+          "driver": "Eric Fructuoso",
+          "team": "GTSpain92"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 2,
+          "laps": 32,
+          "best_lap_ms": 97294,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 4,
+          "laps": 32,
+          "best_lap_ms": 100739,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 31,
+          "best_lap_ms": 101857,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 5,
+          "laps": 31,
+          "best_lap_ms": 102053,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 31,
+          "best_lap_ms": 103097,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 30,
+          "best_lap_ms": 103284,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 29,
+          "best_lap_ms": 106083,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "fali carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 8,
+          "laps": 11,
+          "best_lap_ms": 105707,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 1,
+          "laps": 11,
+          "best_lap_ms": 100249,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 10,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 3,
+          "laps": 2,
+          "best_lap_ms": 107191,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_9_17_23_17_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Madrid F1 CP, Spain",
+      "completed_at": "2026-09-17T23:17:00+02:00",
+      "track": "MN-MADRID_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_9_17_23_17_RACE.json",
+      "participants": 8,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 39,
+          "best_lap_ms": 90583,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 3,
+          "laps": 39,
+          "best_lap_ms": 94230,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 4,
+          "laps": 39,
+          "best_lap_ms": 94527,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 5,
+          "laps": 38,
+          "best_lap_ms": 96877,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 37,
+          "best_lap_ms": 95827,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 34,
+          "best_lap_ms": 102975,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 7,
+          "laps": 20,
+          "best_lap_ms": 101628,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Pascual Baviera",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 2,
+          "laps": 19,
+          "best_lap_ms": 93463,
+          "penalty_ms": 0,
+          "disqualified": false
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_9_10_23_7_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Monza F1 GP, Italy",
+      "completed_at": "2026-09-10T23:07:00+02:00",
+      "track": "MN-MONZA_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_9_10_23_7_RACE.json",
+      "participants": 11,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Pascual Baviera",
+          "team": "GTSpain92"
+        },
+        {
+          "position": 2,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 3,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Pascual Baviera",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 1,
+          "laps": 39,
+          "best_lap_ms": 81499,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 2,
+          "laps": 39,
+          "best_lap_ms": 82251,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 4,
+          "laps": 39,
+          "best_lap_ms": 82323,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 3,
+          "laps": 39,
+          "best_lap_ms": 82410,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 39,
+          "best_lap_ms": 82428,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 39,
+          "best_lap_ms": 82951,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 5,
+          "laps": 39,
+          "best_lap_ms": 83347,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 10,
+          "laps": 38,
+          "best_lap_ms": 83719,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 38,
+          "best_lap_ms": 84278,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Luis Vaca",
+          "team_at_race": "GTSpain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 38,
+          "best_lap_ms": 83667,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 6,
+          "laps": 1,
+          "best_lap_ms": 999999999,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_9_3_15_6_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Zandvoort F1-GP, Netherlands",
+      "completed_at": "2026-09-03T15:06:00+02:00",
+      "track": "MN-ZANDVOORT_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_9_3_15_6_RACE.json",
+      "participants": 10,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Iker",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 2,
+          "laps": 45,
+          "best_lap_ms": 70475,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 3,
+          "laps": 45,
+          "best_lap_ms": 70786,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 5,
+          "laps": 45,
+          "best_lap_ms": 71417,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 4,
+          "laps": 45,
+          "best_lap_ms": 70969,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 44,
+          "best_lap_ms": 71832,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 6,
+          "laps": 44,
+          "best_lap_ms": 72726,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 43,
+          "best_lap_ms": 71809,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 41,
+          "best_lap_ms": 73421,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 8,
+          "laps": 22,
+          "best_lap_ms": 72905,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 10,
+          "driver": "fali carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 9,
+          "laps": 10,
+          "best_lap_ms": 75222,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_6_18_15_8_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Spa Francorchamps F1 GP, Belgium",
+      "completed_at": "2026-06-18T15:08:00+02:00",
+      "track": "MN-SPA_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_6_18_15_8_RACE.json",
+      "participants": 13,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Pascual Baviera",
+          "team": "GTSpain92"
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Pascual Baviera",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 1,
+          "laps": 31,
+          "best_lap_ms": 104152,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 3,
+          "laps": 31,
+          "best_lap_ms": 105089,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 6,
+          "laps": 31,
+          "best_lap_ms": 105063,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 4,
+          "laps": 31,
+          "best_lap_ms": 105007,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 7,
+          "laps": 31,
+          "best_lap_ms": 106585,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 31,
+          "best_lap_ms": 106056,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 31,
+          "best_lap_ms": 107074,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 13,
+          "laps": 31,
+          "best_lap_ms": 106274,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 5,
+          "laps": 31,
+          "best_lap_ms": 105437,
+          "penalty_ms": 15000000000,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 31,
+          "best_lap_ms": 107143,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Luis Vaca",
+          "team_at_race": "GTSpain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 14,
+          "laps": 30,
+          "best_lap_ms": 106777,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 12,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 27,
+          "best_lap_ms": 106374,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 13,
+          "driver": "fali carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 11,
+          "laps": 20,
+          "best_lap_ms": 107824,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_6_11_15_6_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Silverstone F1, Great Britain",
+      "completed_at": "2026-06-11T15:06:00+02:00",
+      "track": "MN-SILVERSTONE_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_6_11_15_6_RACE.json",
+      "participants": 12,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        },
+        {
+          "position": 2,
+          "driver": "Roberto Peña",
+          "team": "Los Navarros"
+        },
+        {
+          "position": 3,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 2,
+          "laps": 36,
+          "best_lap_ms": 89352,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 3,
+          "laps": 36,
+          "best_lap_ms": 90048,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 5,
+          "laps": 36,
+          "best_lap_ms": 89323,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 36,
+          "best_lap_ms": 90509,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 11,
+          "laps": 36,
+          "best_lap_ms": 89804,
+          "penalty_ms": 30000000000,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 12,
+          "laps": 36,
+          "best_lap_ms": 89734,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 1,
+          "laps": 36,
+          "best_lap_ms": 90755,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 8,
+          "laps": 36,
+          "best_lap_ms": 91173,
+          "penalty_ms": 30000000000,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 10,
+          "laps": 35,
+          "best_lap_ms": 91370,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 35,
+          "best_lap_ms": 91358,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 35,
+          "best_lap_ms": 92146,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 12,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 4,
+          "laps": 35,
+          "best_lap_ms": 90592,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_6_4_15_4_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Red Bull Ring F1 GP, Austria",
+      "completed_at": "2026-06-04T15:04:00+02:00",
+      "track": "MN-REDBULLRING_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_6_4_15_4_RACE.json",
+      "participants": 14,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        },
+        {
+          "position": 3,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 48,
+          "best_lap_ms": 62281,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 2,
+          "laps": 48,
+          "best_lap_ms": 65369,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 8,
+          "laps": 48,
+          "best_lap_ms": 65527,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 47,
+          "best_lap_ms": 66455,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 3,
+          "laps": 47,
+          "best_lap_ms": 64655,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Pascual Baviera",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 4,
+          "laps": 47,
+          "best_lap_ms": 65576,
+          "penalty_ms": 20000000000,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 5,
+          "laps": 47,
+          "best_lap_ms": 66628,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 13,
+          "laps": 47,
+          "best_lap_ms": 67254,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Pedro Alvarez",
+          "team_at_race": "TFS",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 46,
+          "best_lap_ms": 68506,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 45,
+          "best_lap_ms": 67530,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Luis Vaca",
+          "team_at_race": "GTSpain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 45,
+          "best_lap_ms": 68540,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 12,
+          "driver": "Fali Carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 14,
+          "laps": 31,
+          "best_lap_ms": 67766,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 13,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 18,
+          "best_lap_ms": 66872,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 14,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 6,
+          "laps": 5,
+          "best_lap_ms": 67056,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_5_28_15_5_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "Barcelona F1 2024 (for FNR version), Spain",
+      "completed_at": "2026-05-28T15:05:00+02:00",
+      "track": "MN-MONTMELO_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_5_28_15_5_RACE.json",
+      "participants": 13,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Iker",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 3,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 42,
+          "best_lap_ms": 74275,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 2,
+          "laps": 42,
+          "best_lap_ms": 74906,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 4,
+          "laps": 42,
+          "best_lap_ms": 74472,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 5,
+          "laps": 42,
+          "best_lap_ms": 74091,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 42,
+          "best_lap_ms": 75310,
+          "penalty_ms": 15000000000,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Pascual Baviera",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 42,
+          "best_lap_ms": 75109,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 42,
+          "best_lap_ms": 74991,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 13,
+          "laps": 42,
+          "best_lap_ms": 75817,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 42,
+          "best_lap_ms": 75931,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 3,
+          "laps": 41,
+          "best_lap_ms": 74298,
+          "penalty_ms": 15000000000,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Luis Vaca",
+          "team_at_race": "GTSpain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 40,
+          "best_lap_ms": 75269,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 12,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 40,
+          "best_lap_ms": 77529,
+          "penalty_ms": 35000000000,
+          "disqualified": false
+        },
+        {
+          "position": 13,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 40,
+          "best_lap_ms": 76972,
+          "penalty_ms": 0,
+          "disqualified": false
+        }
+      ],
+      "review_flags": [
+        "original event title mentions 2024 despite completed date in 2026"
+      ]
+    },
+    {
+      "session_id": "2026_5_14_15_4_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Monaco F1-GP, Monaco",
+      "completed_at": "2026-05-14T15:04:00+02:00",
+      "track": "MN-MONACO_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_5_14_15_4_RACE.json",
+      "participants": 14,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        },
+        {
+          "position": 2,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 2,
+          "laps": 44,
+          "best_lap_ms": 70188,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 44,
+          "best_lap_ms": 67942,
+          "penalty_ms": 30000000000,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 3,
+          "laps": 44,
+          "best_lap_ms": 71379,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 5,
+          "laps": 43,
+          "best_lap_ms": 71675,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 4,
+          "laps": 43,
+          "best_lap_ms": 69436,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 9,
+          "laps": 43,
+          "best_lap_ms": 72933,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 42,
+          "best_lap_ms": 72874,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Pedro Alvarez",
+          "team_at_race": "TFS",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 13,
+          "laps": 42,
+          "best_lap_ms": 72900,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 14,
+          "laps": 42,
+          "best_lap_ms": 72966,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 41,
+          "best_lap_ms": 73884,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 38,
+          "best_lap_ms": 72770,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 12,
+          "driver": "Luis Vaca",
+          "team_at_race": "GTSpain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 33,
+          "best_lap_ms": 73472,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 13,
+          "driver": "Fali Carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 8,
+          "laps": 9,
+          "best_lap_ms": 74021,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 14,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 7,
+          "laps": 1,
+          "best_lap_ms": 999999999,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_5_7_15_8_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Montreal F1 GP, Canada",
+      "completed_at": "2026-05-07T15:08:00+02:00",
+      "track": "MN-CANADA_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_5_7_15_8_RACE.json",
+      "participants": 15,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Cesar Matarin",
+          "team": "MNTeam"
+        },
+        {
+          "position": 3,
+          "driver": "Eric Fructuoso",
+          "team": "GTSpain92"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 45,
+          "best_lap_ms": 70573,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Cesar Matarin",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 45,
+          "best_lap_ms": 74191,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 45,
+          "best_lap_ms": 73689,
+          "penalty_ms": 60000000000,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 3,
+          "laps": 44,
+          "best_lap_ms": 73618,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 5,
+          "laps": 44,
+          "best_lap_ms": 74252,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 8,
+          "laps": 44,
+          "best_lap_ms": 73714,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 4,
+          "laps": 44,
+          "best_lap_ms": 73171,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 44,
+          "best_lap_ms": 73955,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 2,
+          "laps": 44,
+          "best_lap_ms": 74831,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 43,
+          "best_lap_ms": 73905,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Pedro Alvarez",
+          "team_at_race": "TFS",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 43,
+          "best_lap_ms": 75082,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 12,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 13,
+          "laps": 42,
+          "best_lap_ms": 76431,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 13,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 10,
+          "laps": 22,
+          "best_lap_ms": 75108,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 14,
+          "driver": "Fali Carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 14,
+          "laps": 17,
+          "best_lap_ms": 75899,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 15,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 15,
+          "laps": 15,
+          "best_lap_ms": 76381,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_4_30_15_10_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Miami International Autodrome, USA",
+      "completed_at": "2026-04-30T15:10:00+02:00",
+      "track": "MN-MIAMI_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_4_30_15_10_RACE.json",
+      "participants": 13,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        },
+        {
+          "position": 2,
+          "driver": "Juan canovas",
+          "team": "CRT"
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 1,
+          "laps": 38,
+          "best_lap_ms": 88663,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 2,
+          "laps": 38,
+          "best_lap_ms": 88308,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 4,
+          "laps": 38,
+          "best_lap_ms": 88396,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 38,
+          "best_lap_ms": 89410,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 5,
+          "laps": 38,
+          "best_lap_ms": 88574,
+          "penalty_ms": 70000000000,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 7,
+          "laps": 37,
+          "best_lap_ms": 90503,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Pedro Alvarez",
+          "team_at_race": "TFS",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 37,
+          "best_lap_ms": 90467,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 37,
+          "best_lap_ms": 88928,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 12,
+          "laps": 37,
+          "best_lap_ms": 90801,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 37,
+          "best_lap_ms": 90449,
+          "penalty_ms": 20000000000,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Fali Carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 13,
+          "laps": 36,
+          "best_lap_ms": 89096,
+          "penalty_ms": 40000000000,
+          "disqualified": false
+        },
+        {
+          "position": 12,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 35,
+          "best_lap_ms": 92160,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 13,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 3,
+          "laps": 28,
+          "best_lap_ms": 89452,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_4_16_15_10_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Japanese F1 Grand Prix, Japan",
+      "completed_at": "2026-04-16T15:10:00+02:00",
+      "track": "MN-JEDDAH_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_4_16_15_10_RACE.json",
+      "participants": 17,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Eric Fructuoso",
+          "team": "GTSpain92"
+        },
+        {
+          "position": 3,
+          "driver": "Juan canovas",
+          "team": "CRT"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 36,
+          "best_lap_ms": 89010,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 2,
+          "laps": 36,
+          "best_lap_ms": 91384,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 6,
+          "laps": 36,
+          "best_lap_ms": 91617,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 5,
+          "laps": 36,
+          "best_lap_ms": 90688,
+          "penalty_ms": 40000000000,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Cesar Matarin",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 16,
+          "laps": 36,
+          "best_lap_ms": 92115,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 4,
+          "laps": 36,
+          "best_lap_ms": 91073,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Pascual Baviera",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 3,
+          "laps": 36,
+          "best_lap_ms": 89026,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 7,
+          "laps": 35,
+          "best_lap_ms": 93125,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 17,
+          "laps": 35,
+          "best_lap_ms": 93500,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Pedro Alvarez",
+          "team_at_race": "TFS",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 15,
+          "laps": 34,
+          "best_lap_ms": 94963,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 34,
+          "best_lap_ms": 93548,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 12,
+          "driver": "Fali Carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 13,
+          "laps": 33,
+          "best_lap_ms": 94095,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 13,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 30,
+          "best_lap_ms": 93445,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 14,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 10,
+          "laps": 18,
+          "best_lap_ms": 93423,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 15,
+          "driver": "Luis Vaca",
+          "team_at_race": "GTSpain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 14,
+          "laps": 11,
+          "best_lap_ms": 98532,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 16,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 2,
+          "best_lap_ms": 96826,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 17,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 2,
+          "best_lap_ms": 93422,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": [
+        "event says Japanese GP but track is MN-JEDDAH_GP"
+      ]
+    },
+    {
+      "session_id": "2026_4_9_22_9_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Bahrain F1 Grand Prix, Bahrain",
+      "completed_at": "2026-04-09T22:09:00+02:00",
+      "track": "MN-BAHRAIN_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_4_9_22_9_RACE.json",
+      "participants": 13,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        },
+        {
+          "position": 3,
+          "driver": "Eric Fructuoso",
+          "team": "GTSpain92"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 2,
+          "laps": 36,
+          "best_lap_ms": 89010,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 4,
+          "laps": 36,
+          "best_lap_ms": 90688,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 5,
+          "laps": 36,
+          "best_lap_ms": 91384,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 7,
+          "laps": 36,
+          "best_lap_ms": 91617,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 1,
+          "laps": 36,
+          "best_lap_ms": 91073,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Pascual Baviera",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 36,
+          "best_lap_ms": 89026,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 10,
+          "laps": 36,
+          "best_lap_ms": 93125,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 36,
+          "best_lap_ms": 93548,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 36,
+          "best_lap_ms": 93445,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 6,
+          "laps": 36,
+          "best_lap_ms": 93423,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 11,
+          "driver": "Luis Vaca",
+          "team_at_race": "GTSpain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 13,
+          "laps": 13,
+          "best_lap_ms": 98532,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 12,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 3,
+          "laps": 36,
+          "best_lap_ms": 96826,
+          "penalty_ms": 0,
+          "disqualified": true
+        },
+        {
+          "position": 13,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 36,
+          "best_lap_ms": 93422,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_3_26_23_9_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Shanghai International Circuit, China",
+      "completed_at": "2026-03-26T23:09:00+01:00",
+      "track": "MN-JAPAN_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_3_26_23_9_RACE.json",
+      "participants": 15,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 36,
+          "best_lap_ms": 86465,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 6,
+          "laps": 36,
+          "best_lap_ms": 88295,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 9,
+          "laps": 36,
+          "best_lap_ms": 89834,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Daniel Barón",
+          "team_at_race": "Froppy Lovers",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 5,
+          "laps": 36,
+          "best_lap_ms": 89123,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 8,
+          "laps": 36,
+          "best_lap_ms": 90658,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Pascual Baviera",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 2,
+          "laps": 36,
+          "best_lap_ms": 86535,
+          "penalty_ms": 30000000000,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 35,
+          "best_lap_ms": 90494,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 3,
+          "laps": 35,
+          "best_lap_ms": 88779,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 35,
+          "best_lap_ms": 91314,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 4,
+          "laps": 35,
+          "best_lap_ms": 90490,
+          "penalty_ms": 30000000000,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 13,
+          "laps": 34,
+          "best_lap_ms": 91520,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 12,
+          "driver": "Pedro Alvarez",
+          "team_at_race": "TFS",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 34,
+          "best_lap_ms": 93824,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 13,
+          "driver": "Juan José Ruiz",
+          "team_at_race": "Gtspain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 14,
+          "laps": 17,
+          "best_lap_ms": 92946,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 14,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 10,
+          "laps": 15,
+          "best_lap_ms": 91072,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 15,
+          "driver": "Fali Carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_audi",
+          "grid_position": 15,
+          "laps": 11,
+          "best_lap_ms": 93845,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_3_19_23_11_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Shanghai International Circuit, China",
+      "completed_at": "2026-03-19T23:11:00+01:00",
+      "track": "MN-CHINA_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_3_19_23_11_RACE.json",
+      "participants": 16,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        },
+        {
+          "position": 3,
+          "driver": "Cesar Matarin",
+          "team": "MNTeam"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 36,
+          "best_lap_ms": 91253,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 4,
+          "laps": 36,
+          "best_lap_ms": 94093,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Cesar Matarin",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 36,
+          "best_lap_ms": 94868,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 5,
+          "laps": 36,
+          "best_lap_ms": 95130,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 2,
+          "laps": 36,
+          "best_lap_ms": 93686,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 36,
+          "best_lap_ms": 94888,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 36,
+          "best_lap_ms": 95556,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 10,
+          "laps": 36,
+          "best_lap_ms": 96166,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Pedro Alvarez",
+          "team_at_race": "TFS",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 36,
+          "best_lap_ms": 96566,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 3,
+          "laps": 36,
+          "best_lap_ms": 94752,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 35,
+          "best_lap_ms": 96251,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 12,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mercedes",
+          "grid_position": 13,
+          "laps": 35,
+          "best_lap_ms": 96282,
+          "penalty_ms": 30000000000,
+          "disqualified": false
+        },
+        {
+          "position": 13,
+          "driver": "Luis Vaca",
+          "team_at_race": "GTSpain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 35,
+          "best_lap_ms": 96668,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 14,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 16,
+          "laps": 35,
+          "best_lap_ms": 97539,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 15,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 14,
+          "laps": 33,
+          "best_lap_ms": 98502,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 16,
+          "driver": "Juan José Ruiz",
+          "team_at_race": "Gtspain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 15,
+          "laps": 33,
+          "best_lap_ms": 96984,
+          "penalty_ms": 0,
+          "disqualified": false
+        }
+      ],
+      "review_flags": []
+    },
+    {
+      "session_id": "2026_3_12_23_23_RACE",
+      "championship_id": "5ce03a76-0217-45ea-8571-350bb2d2b99c",
+      "event": "MN-Albert Park Circuit, Australia",
+      "completed_at": "2026-03-12T23:23:00+01:00",
+      "track": "MN-AUSTRALIA_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_3_12_23_23_RACE.json",
+      "participants": 19,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team": "MNTeam 2"
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 2,
+          "laps": 39,
+          "best_lap_ms": 74697,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Jose Aguilar",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 5,
+          "laps": 39,
+          "best_lap_ms": 77226,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 6,
+          "laps": 39,
+          "best_lap_ms": 78049,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 10,
+          "laps": 39,
+          "best_lap_ms": 79119,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 39,
+          "best_lap_ms": 78307,
+          "penalty_ms": 15000000000,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 3,
+          "laps": 38,
+          "best_lap_ms": 77248,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 1,
+          "laps": 38,
+          "best_lap_ms": 76713,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Pascual Baviera",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 4,
+          "laps": 38,
+          "best_lap_ms": 77055,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 38,
+          "best_lap_ms": 78841,
+          "penalty_ms": 30000000000,
+          "disqualified": false
+        },
+        {
+          "position": 10,
+          "driver": "Cesar Matarin",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 18,
+          "laps": 37,
+          "best_lap_ms": 79223,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 11,
+          "driver": "Josu",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 12,
+          "laps": 37,
+          "best_lap_ms": 79502,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 12,
+          "driver": "Daniel Barón",
+          "team_at_race": "Froppy Lovers",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 16,
+          "laps": 37,
+          "best_lap_ms": 78540,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 13,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 37,
+          "best_lap_ms": 79055,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 14,
+          "driver": "Alvaro Alonso",
+          "team_at_race": "MNTeam 2",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 15,
+          "laps": 37,
+          "best_lap_ms": 80822,
+          "penalty_ms": 15000000000,
+          "disqualified": false
+        },
+        {
+          "position": 15,
+          "driver": "Luis Vaca",
+          "team_at_race": "GTSpain92 lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 11,
+          "laps": 35,
+          "best_lap_ms": 80281,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 16,
+          "driver": "Juan José Ruiz",
+          "team_at_race": "Gtspain92 Lll",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 17,
+          "laps": 34,
+          "best_lap_ms": 81756,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 17,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 19,
+          "laps": 34,
+          "best_lap_ms": 82986,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 18,
+          "driver": "JOSE Ramon",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 13,
+          "laps": 32,
+          "best_lap_ms": 80485,
+          "penalty_ms": 15000000000,
+          "disqualified": true
+        },
+        {
+          "position": 19,
+          "driver": "Fali Carrasco",
+          "team_at_race": "red bull",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 14,
+          "laps": 22,
+          "best_lap_ms": 83408,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ],
+      "review_flags": []
+    }
+  ]
+}
