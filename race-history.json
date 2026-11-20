@@ -3,7 +3,7 @@
   "season": 2026,
   "status": "PREVIEW_NOT_OFFICIAL",
   "publishable": false,
-  "source_coverage": "Original 20 reviewed F1 races plus strictly screened new completed sessions",
+  "source_coverage": "F1 preview: 20 manually reviewed races + strictly screened subsequent sessions",
   "race_count": 21,
   "latest_race_session_id": "2026_11_19_23_10_RACE",
   "excluded": [
@@ -28,7 +28,6 @@
       "completed_at": "2026-11-19T23:10:00+01:00",
       "track": "MN-LASVEGAS_GP",
       "source": "https://es3.assettohosting.com:50835/results/download/2026_11_19_23_10_RACE.json",
-      "source_sha256": "709c333f0781f3d13564a7e8f724011989b0809c147daff85fa750fb6321df2d",
       "participants": 7,
       "podium": [
         {
@@ -126,9 +125,7 @@
           "disqualified": false
         }
       ],
-      "poster_url": "https://raw.githubusercontent.com/MotorNowRacing/motornow-f1-feed/main/assets/posters/2026_11_19_23_10_RACE/resultado-carrera.png",
-      "driver_standings_poster_url": "https://raw.githubusercontent.com/MotorNowRacing/motornow-f1-feed/main/assets/posters/2026_11_19_23_10_RACE/mundial-pilotos.png",
-      "constructor_standings_poster_url": "https://raw.githubusercontent.com/MotorNowRacing/motornow-f1-feed/main/assets/posters/2026_11_19_23_10_RACE/mundial-constructores.png"
+      "review_flags": []
     },
     {
       "session_id": "2026_11_5_23_6_RACE",
