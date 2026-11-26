@@ -4,8 +4,8 @@
   "status": "PREVIEW_NOT_OFFICIAL",
   "publishable": false,
   "source_coverage": "Original 20 reviewed F1 races plus strictly screened new completed sessions",
-  "race_count": 21,
-  "latest_race_session_id": "2026_11_19_23_10_RACE",
+  "race_count": 22,
+  "latest_race_session_id": "2026_11_26_23_7_RACE",
   "excluded": [
     {
       "session_id": "2026_4_9_22_8_RACE",
@@ -21,6 +21,134 @@
     }
   ],
   "races": [
+    {
+      "session_id": "2026_11_26_23_7_RACE",
+      "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
+      "event": "MN-Losail F1 Grand Prix, Qatar",
+      "completed_at": "2026-11-26T23:07:00+01:00",
+      "track": "MN-QATAR_GP",
+      "source": "https://es3.assettohosting.com:50835/results/download/2026_11_26_23_7_RACE.json",
+      "source_sha256": "d3708e42956556bf4e4095ae33cca5e7003b9f8fd882e772966ea0f3d1f9117d",
+      "participants": 9,
+      "podium": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team": "RedBull Racing Team"
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team": "TCC"
+        },
+        {
+          "position": 3,
+          "driver": "Roberto Peña",
+          "team": "Los Navarros"
+        }
+      ],
+      "results": [
+        {
+          "position": 1,
+          "driver": "Hugo Gómez",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_redbull",
+          "grid_position": 1,
+          "laps": 37,
+          "best_lap_ms": 81510,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 2,
+          "driver": "Vicente Fernández",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 2,
+          "laps": 37,
+          "best_lap_ms": 83656,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 3,
+          "driver": "Roberto Peña",
+          "team_at_race": "Los Navarros",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 3,
+          "laps": 37,
+          "best_lap_ms": 83911,
+          "penalty_ms": 15000000000,
+          "disqualified": false
+        },
+        {
+          "position": 4,
+          "driver": "Eric Fructuoso",
+          "team_at_race": "GTSpain92",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 7,
+          "laps": 37,
+          "best_lap_ms": 85127,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 5,
+          "driver": "Víctor Gabriel",
+          "team_at_race": "TCC",
+          "car": "acfl_f1_2026_williams",
+          "grid_position": 6,
+          "laps": 37,
+          "best_lap_ms": 86633,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 6,
+          "driver": "Dani Martinez",
+          "team_at_race": "MNTeam",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 8,
+          "laps": 37,
+          "best_lap_ms": 84902,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 7,
+          "driver": "Jose Fructuoso",
+          "team_at_race": "GTSpain92 II",
+          "car": "acfl_f1_2026_mclaren",
+          "grid_position": 9,
+          "laps": 36,
+          "best_lap_ms": 87696,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 8,
+          "driver": "Juan canovas",
+          "team_at_race": "CRT",
+          "car": "acfl_f1_2026_astonmartin",
+          "grid_position": 4,
+          "laps": 25,
+          "best_lap_ms": 84499,
+          "penalty_ms": 0,
+          "disqualified": false
+        },
+        {
+          "position": 9,
+          "driver": "Iker",
+          "team_at_race": "RedBull Racing Team",
+          "car": "acfl_f1_2026_racingbulls",
+          "grid_position": 5,
+          "laps": 2,
+          "best_lap_ms": 999999999,
+          "penalty_ms": 0,
+          "disqualified": true
+        }
+      ]
+    },
     {
       "session_id": "2026_11_19_23_10_RACE",
       "championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",

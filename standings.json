@@ -11,17 +11,17 @@
   "drivers": [
     {
       "name": "Hugo Gómez",
-      "primary_points": 391,
+      "primary_points": 416,
       "mexico_points": 25,
-      "combined_points": 416,
+      "combined_points": 441,
       "team": "RedBull Racing Team",
       "position_preview": 1
     },
     {
       "name": "Vicente Fernández",
-      "primary_points": 318,
+      "primary_points": 338,
       "mexico_points": 20,
-      "combined_points": 338,
+      "combined_points": 358,
       "team": "TCC",
       "position_preview": 2
     },
@@ -35,9 +35,9 @@
     },
     {
       "name": "Eric Fructuoso",
-      "primary_points": 213,
+      "primary_points": 226,
       "mexico_points": 13,
-      "combined_points": 226,
+      "combined_points": 239,
       "team": "GTSpain92",
       "position_preview": 4
     },
@@ -51,9 +51,9 @@
     },
     {
       "name": "Víctor Gabriel",
-      "primary_points": 183,
+      "primary_points": 194,
       "mexico_points": 11,
-      "combined_points": 194,
+      "combined_points": 205,
       "team": "TCC",
       "position_preview": 6
     },
@@ -67,17 +67,17 @@
     },
     {
       "name": "Dani Martinez",
-      "primary_points": 116,
+      "primary_points": 126,
       "mexico_points": 9,
-      "combined_points": 125,
+      "combined_points": 135,
       "team": "MNTeam",
       "position_preview": 8
     },
     {
       "name": "Jose Fructuoso",
-      "primary_points": 103,
+      "primary_points": 112,
       "mexico_points": 7,
-      "combined_points": 110,
+      "combined_points": 119,
       "team": "GTSpain92 II",
       "position_preview": 9
     },
@@ -165,30 +165,30 @@
   "teams": [
     {
       "team": "RedBull Racing Team",
-      "primary_points": 525,
+      "primary_points": 550,
       "mexico_points": 41,
-      "combined_points": 566,
+      "combined_points": 591,
       "position_preview": 1
     },
     {
       "team": "TCC",
-      "primary_points": 482,
+      "primary_points": 513,
       "mexico_points": 31,
-      "combined_points": 513,
+      "combined_points": 544,
       "position_preview": 2
+    },
+    {
+      "team": "GTSpain92",
+      "primary_points": 304,
+      "mexico_points": 13,
+      "combined_points": 317,
+      "position_preview": 3
     },
     {
       "team": "MNTeam 2",
       "primary_points": 314,
       "mexico_points": 0,
       "combined_points": 314,
-      "position_preview": 3
-    },
-    {
-      "team": "GTSpain92",
-      "primary_points": 291,
-      "mexico_points": 13,
-      "combined_points": 304,
       "position_preview": 4
     },
     {
@@ -200,16 +200,16 @@
     },
     {
       "team": "MNTeam",
-      "primary_points": 162,
+      "primary_points": 172,
       "mexico_points": 9,
-      "combined_points": 171,
+      "combined_points": 181,
       "position_preview": 6
     },
     {
       "team": "GTSpain92 II",
-      "primary_points": 107,
+      "primary_points": 116,
       "mexico_points": 7,
-      "combined_points": 114,
+      "combined_points": 123,
       "position_preview": 7
     },
     {
