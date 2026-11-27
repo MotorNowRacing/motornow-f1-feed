@@ -147,7 +147,10 @@
           "penalty_ms": 0,
           "disqualified": true
         }
-      ]
+      ],
+      "poster_url": "https://raw.githubusercontent.com/MotorNowRacing/motornow-f1-feed/main/assets/posters/2026_11_26_23_7_RACE/resultado-carrera.png",
+      "driver_standings_poster_url": "https://raw.githubusercontent.com/MotorNowRacing/motornow-f1-feed/main/assets/posters/2026_11_26_23_7_RACE/mundial-pilotos.png",
+      "constructor_standings_poster_url": "https://raw.githubusercontent.com/MotorNowRacing/motornow-f1-feed/main/assets/posters/2026_11_26_23_7_RACE/mundial-constructores.png"
     },
     {
       "session_id": "2026_11_19_23_10_RACE",
