@@ -3,6 +3,7 @@
   "season": 2026,
   "status": "PREVIEW_NOT_OFFICIAL",
   "publishable": false,
+  "generated_at_utc": "2026-11-27T01:59:32.696159+00:00",
   "sources": {
     "primary_championship_id": "290506bc-5942-420b-8804-e5d4e4425a8e",
     "mexico_auxiliary_championship_id": "532557d3-df77-4089-a655-bb5959813772",
@@ -11,154 +12,154 @@
   "drivers": [
     {
       "name": "Hugo Gómez",
+      "team": "RedBull Racing Team",
       "primary_points": 416,
       "mexico_points": 25,
       "combined_points": 441,
-      "team": "RedBull Racing Team",
       "position_preview": 1
     },
     {
       "name": "Vicente Fernández",
+      "team": "TCC",
       "primary_points": 338,
       "mexico_points": 20,
       "combined_points": 358,
-      "team": "TCC",
       "position_preview": 2
     },
     {
       "name": "Jose Aguilar",
+      "team": "MNTeam 2",
       "primary_points": 280,
       "mexico_points": 0,
       "combined_points": 280,
-      "team": "MNTeam 2",
       "position_preview": 3
     },
     {
       "name": "Eric Fructuoso",
+      "team": "GTSpain92",
       "primary_points": 226,
       "mexico_points": 13,
       "combined_points": 239,
-      "team": "GTSpain92",
       "position_preview": 4
     },
     {
       "name": "Roberto Peña",
+      "team": "Los Navarros",
       "primary_points": 211,
       "mexico_points": 10,
       "combined_points": 221,
-      "team": "Los Navarros",
       "position_preview": 5
     },
     {
       "name": "Víctor Gabriel",
+      "team": "TCC",
       "primary_points": 194,
       "mexico_points": 11,
       "combined_points": 205,
-      "team": "TCC",
       "position_preview": 6
     },
     {
       "name": "Iker",
+      "team": "RedBull Racing Team",
       "primary_points": 164,
       "mexico_points": 16,
       "combined_points": 180,
-      "team": "RedBull Racing Team",
       "position_preview": 7
     },
     {
       "name": "Dani Martinez",
+      "team": "MNTeam",
       "primary_points": 126,
       "mexico_points": 9,
       "combined_points": 135,
-      "team": "MNTeam",
       "position_preview": 8
     },
     {
       "name": "Jose Fructuoso",
+      "team": "GTSpain92 II",
       "primary_points": 112,
       "mexico_points": 7,
       "combined_points": 119,
-      "team": "GTSpain92 II",
       "position_preview": 9
     },
     {
       "name": "Pascual Baviera",
+      "team": "GTSpain92",
       "primary_points": 105,
       "mexico_points": 0,
       "combined_points": 105,
-      "team": "GTSpain92",
       "position_preview": 10
     },
     {
       "name": "Juan canovas",
+      "team": "CRT",
       "primary_points": 95,
       "mexico_points": 8,
       "combined_points": 103,
-      "team": "CRT",
       "position_preview": 11
     },
     {
       "name": "Alvaro Alonso",
+      "team": "MNTeam 2",
       "primary_points": 59,
       "mexico_points": 0,
       "combined_points": 59,
-      "team": "MNTeam 2",
       "position_preview": 12
     },
     {
       "name": "Josu",
+      "team": "Los Navarros",
       "primary_points": 54,
       "mexico_points": 0,
       "combined_points": 54,
-      "team": "Los Navarros",
       "position_preview": 13
     },
     {
       "name": "Cesar Matarin",
+      "team": "MNTeam",
       "primary_points": 53,
       "mexico_points": 0,
       "combined_points": 53,
-      "team": "MNTeam",
       "position_preview": 14
     },
     {
       "name": "Pedro Alvarez",
+      "team": "TFS",
       "primary_points": 46,
       "mexico_points": 0,
       "combined_points": 46,
-      "team": "TFS",
       "position_preview": 15
     },
     {
       "name": "Luis Vaca",
+      "team": "GTSpain92 lll",
       "primary_points": 23,
       "mexico_points": 0,
       "combined_points": 23,
-      "team": "GTSpain92 lll",
       "position_preview": 16
     },
     {
       "name": "fali carrasco",
+      "team": "red bull",
       "primary_points": 20,
       "mexico_points": 0,
       "combined_points": 20,
-      "team": "red bull",
       "position_preview": 17
     },
     {
       "name": "Daniel Barón",
+      "team": "Froppy Lovers",
       "primary_points": 17,
       "mexico_points": 0,
       "combined_points": 17,
-      "team": "Froppy Lovers",
       "position_preview": 18
     },
     {
       "name": "Juan José Ruiz",
+      "team": "Gtspain92 lll",
       "primary_points": 0,
       "mexico_points": 0,
       "combined_points": 0,
-      "team": "Gtspain92 lll",
       "position_preview": 19
     }
   ],
@@ -261,9 +262,11 @@
       "2026_10_29_23_3_RACE",
       "2026_11_5_23_6_RACE"
     ],
-    "rule": "main live total + validated Mexico once; no race replay"
+    "rule": "Primary points already include penalties; add Mexico once"
   },
   "warnings": [
-    "Internal reconciliation preview. No WordPress or public feed updates."
+    "PREVIEW ONLY: no automatic publication until final approval",
+    "Any change in Mexico auxiliary blocks the build",
+    "Primary totals are read directly from AssettoHosting"
   ]
 }
